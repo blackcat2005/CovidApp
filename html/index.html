@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link rel="stylesheet" href="" />
+    <title>Covid App</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="title-bar">
+        <div class="title-drag-region"></div>
+        <div class="title-button">
+          <div class="setting-button button-menu-bar">
+            <i class="icons">settings</i>
+          </div>
+          <div class="title-nagative-button">
+            <div class="minimize-win button-menu-bar">
+              <i class="icons">indeterminate_check_box</i>
+            </div>
+            <div class="maximize-win button-menu-bar">
+              <i class="icons">launch</i>
+            </div>
+            <div class="close-win button-menu-bar">
+              <i class="icons">close</i>
+            </div>
+          </div>
+        </div>
+        <div class="title-name">Covid App</div>
+      </div>
+      <div class="workshop">
+        <div class="loading">
+          <img src="../css/icon/loading.svg" alt="" class="loadng-image" />
+          <span class="loading-text">Getting Information ...</span>
+          <span class="loading-error-text"
+            >Please check your connection and reload app</span
+          >
+        </div>
+        <div class="main-container">
+          <div class="dashboard box-design">
+            <div class="content">
+              <p class="heading">Dashboard</p>
+              <p class="lasttime-updated">Update at : 23/04/2020</p>
+              <form class="search">
+                <label for="">Search:</label>
+                <input type="text" class="search-box" />
+              </form>
+              <div class="list-view">
+                <div class="he row-design">
+                  <span class="he-number cell-design">#</span>
+                  <span class="he-country cell-design">Country</span>
+                  <span class="he-cases cell-design">Cases</span>
+                  <span class="he-recoveries cell-design">Recoveries</span>
+                  <span class="he-deaths cell-design">Deaths</span>
+                </div>
+                <div class="items"></div>
+              </div>
+              <div class="source">
+                <a href="https://corona.kompa.ai"
+                  >From: <em class="source-link">corona.kompa.ai</em></a
+                >
+              </div>
+              <form action="" class="button-navi-table">
+                <span class="btn-previous btn-navi-table">Previous</span>
+                <span class="btn-fir btn-navi-table">1</span>
+                <span class="btn-sec btn-navi-table">2</span>
+                <span class="btn-etc btn-navi-table">...</span>
+                <span class="btn-last btn-navi-table">22</span>
+                <span class="btn-next btn-navi-table">Next</span>
+              </form>
+            </div>
+          </div>
+          <div class="thumb">
+            <div class="choosen-country box-design">
+              <p class="heading">Vietnam</p>
+              <p class="lasttime-updated">Update at : 23/04/2020</p>
+              <div class="infor">
+                <div class="detail-cases detail">
+                  <div class="icon-cases icon">
+                    <img src="../css/icon/cases.svg" alt="" />
+                  </div>
+                  <p class="detail-cases-num">240</p>
+                  <p class="detail-heading">Cases</p>
+                  <p title="New Cases" class="detail-cases-new">123</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="deatil-active detail">
+                  <div class="icon-active icon">
+                    <img src="../css/icon/active.svg" alt="" />
+                  </div>
+                  <p class="detail-active-num">240</p>
+                  <p class="detail-heading">Actives</p>
+                  <p title="New Active" class="detail-active-new">123</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="detail-recoveries detail">
+                  <div class="icon-recoveries icon">
+                    <img src="../css/icon/recoveries.svg" alt="" />
+                  </div>
+                  <p class="detail-recover-num">240</p>
+                  <p class="detail-heading">Recoveries</p>
+                  <p title="New Recoveries" class="detail-recover-new">123</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="detail-deaths detail">
+                  <div class="icon-deaths icon">
+                    <img src="../css/icon/deaths.svg" alt="" />
+                  </div>
+                  <p class="detail-death-num">240</p>
+                  <p class="detail-heading">Deaths</p>
+                  <p title="New Deaths" class="detail-death-new">123</p>
+                </div>
+              </div>
+            </div>
+            <div class="world box-design">
+              <p class="heading">World</p>
+              <p class="lasttime-updated">Update at : 23/04/2020</p>
+              <div class="infor">
+                <div class="detail-cases detail">
+                  <div class="icon-cases icon">
+                    <img src="../css/icon/cases.svg" alt="" />
+                  </div>
+                  <p class="detail-cases-num">240</p>
+                  <p class="detail-heading">Cases</p>
+                  <p title="New Cases" class="detail-cases-new">123</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="active-deaths detail">
+                  <div class="icon-active icon">
+                    <img src="../css/icon/active.svg" alt="" />
+                  </div>
+                  <p class="detail-active-num">240</p>
+                  <p class="detail-heading">Actives</p>
+                  <p title="New Active" class="detail-active-new">123</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="detail-recoveries detail">
+                  <div class="icon-recoveries icon">
+                    <img src="../css/icon/recoveries.svg" alt="" />
+                  </div>
+                  <p class="detail-recover-num">240</p>
+                  <p class="detail-heading">Recoveries</p>
+                  <p title="New Recoveries" class="detail-recover-new">123</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="detail-deaths detail">
+                  <div class="icon-deaths icon">
+                    <img src="../css/icon/deaths.svg" alt="" />
+                  </div>
+                  <p class="detail-death-num">240</p>
+                  <p class="detail-heading">Deaths</p>
+                  <p title="New Deaths" class="detail-death-new">123</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="small-win">
+      <div class="small-win drag-region"></div>
+      <div class="small-win main-container box-design">
+        <div class="small-win vn">
+          <div class="small-win vn heading">Vietnam</div>
+          <div class="small-win vn cases" title="Cases">
+            <div class="num"></div>
+            <div class="new"></div>
+          </div>
+          <div class="small-win vn recovers" title="Recvovers">
+            <div class="num"></div>
+            <div class="new"></div>
+          </div>
+          <div class="small-win vn deaths" title="Deaths">
+            <div class="num"></div>
+            <div class="new"></div>
+          </div>
+        </div>
+        <div class="small-win world">
+          <div class="small-win world heading">World</div>
+          <div class="small-win world cases" title="Cases">
+            <div class="num"></div>
+            <div class="new"></div>
+          </div>
+          <div class="small-win world recovers" title="Recvovers">
+            <div class="num"></div>
+            <div class="new"></div>
+          </div>
+          <div class="small-win world deaths" title="Deaths">
+            <div class="num"></div>
+            <div class="new"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      require("../js/ui.js");
+      require("../js/app.js");
+    </script>
+  </body>
+</html>

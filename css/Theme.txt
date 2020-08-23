@@ -1,0 +1,26 @@
+﻿Dark Theme:
+Font: Roboto
+Font primary color: #FFFFFF
+Font secondary color: #CCCCCC
+Backgroud Color: #0c111f
+Panel Color: #121729
+Thirty dark color: #1D2542
+Red Color: #ff5f66
+Green Color: #00e093
+Blue Color: #4d8af0
+Yellow Color: #f0825f
+Thirty color: #4D8AF0
+Box-shadow: 4px 4px 8px rgba(4, 2, 2, 0.5);
+Border-radius: 6px
+
+Light Theme:
+Font: Roboto
+Font primary color: #101010
+Font secondary color: #565656
+Backgroud Color: #F9FAFB
+Panel Color: #FFFFFF
+Red Color: #ff5f66
+Green Color: #00e093
+Thirty color: #4D8AF0
+Box-shadow: rgba(4, 2, 2, 0.2) 0px 0px 10px
+Border-radius: 6px

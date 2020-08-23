@@ -1,0 +1,6 @@
+﻿//https://pomber.github.io/covid19/timeseries.json
+en https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory
+vi https://news.google.com/covid19/map?hl=vi&gl=VN&ceid=VN:vi
+alt https://covid19.mathdro.id/api
+short https://code.junookyo.xyz/api/ncov-moh/index.php?type=vn
+https://gw.vnexpress.net/cr/?name=world_coronavirus
